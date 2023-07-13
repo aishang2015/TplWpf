@@ -13,10 +13,19 @@ namespace TplWpf.ViewModels.Main
 		[ObservableProperty]
 		int? count = 0;
 
+		[ObservableProperty]
+		bool isOpen = false;
+
 		[RelayCommand]
 		public async Task Increase()
 		{
 			Count++;
+		}
+
+		[RelayCommand]
+		public void OpenHost()
+		{
+			IsOpen = true;
 		}
 
 	}
