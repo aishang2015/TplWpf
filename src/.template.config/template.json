@@ -1,0 +1,33 @@
+{
+  "author": "aishang2015",
+  "classifications": [ "WPF" ], 
+  "name": "TplWpf", 
+  "identity": "TplWpfTpl",
+  "shortName": "wpftpl",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "TplWpf",
+  "preferNameDirectory": true,
+  "sources":[
+    {
+      "exclude":[
+        "**/[Bb]in/**", 
+        "**/[Oo]bj/**", 
+        ".template.config/**/*", 
+        "**/*.filelist", 
+        "**/*.user", 
+        "**/*.lock.json",
+        "**/node_modules/**",
+        ".github/**",
+        ".git/**",
+        "LICENSE",
+        "README.md",
+        "**/.vs/**",
+        "**/.vscode/**",        
+      ]
+    }
+  ]
+
+}
